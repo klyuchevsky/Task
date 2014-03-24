@@ -20,7 +20,7 @@ public class AddWithMultiply implements Command {
             try {
                 a = Double.parseDouble(command[i]);
             } catch (NumberFormatException e) {
-                System.out.println("Неверный параметр: " + command[1]);
+                System.out.println("Неверный параметр: " + command[i]);
                 System.out.println("Команда не будет выполнена");
                 return;
             }

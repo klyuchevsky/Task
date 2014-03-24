@@ -8,10 +8,14 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Task {
+    private static Map<String, Command> commands = new HashMap<>(); // Hashmap to store commands
+
+    public static Map getCommands() {
+        return commands;
+    }
 
     public static void main(String[] args) {
         Boolean isOnline;
-        Map<String, Command> commands = new HashMap<>(); // Hashmap to store commands
         String string; // String to store current command
         Scanner sc;
 
@@ -56,8 +60,8 @@ public class Task {
                 } else System.out.println("Неизвестная команда: " + cmdName);
             }
 
-        } catch (Throwable t){
-            //TODO make handle
+        } catch (Throwable t) {
+            t.printStackTrace();
         }
     }
 }
