@@ -3,19 +3,39 @@ package ru.klyuchevsky;
 import ru.klyuchevsky.commands.*;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Task {
     private static Map<String, Command> commands = new HashMap<>(); // Hashmap to store commands
+    private static Boolean isOnline = false;
+    private static File inFile;
+    private static File outFile;
 
     public static Map getCommands() {
         return commands;
     }
 
+    public static void writeResult(String string) {
+        if (isOnline) {
+            try {
+                FileWriter out = new FileWriter(outFile, true);
+                try {
+                    out.write(string);
+                    out.write("\n");
+                } finally {
+                    out.close();
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        } else System.out.println(string);
+    }
+
     public static void main(String[] args) {
-        Boolean isOnline;
         String string; // String to store current command
         Scanner sc;
 
@@ -26,11 +46,14 @@ public class Task {
         commands.put("executeFromFile", new ExecuteFromFile());
 
         try {
-            if (args.length != 0) {
-                File file = new File(args[0]);
-                sc = new Scanner(file);
-            } else {
+            if (args.length >= 2) {
+                inFile = new File(args[0]); // input file
+                sc = new Scanner(inFile);
+                outFile = new File(args[1]); // output file
                 isOnline = true;
+                System.out.println("Запуск в фоновом режиме");
+            } else {
+                System.out.println("Программа запущена в режиме консоли");
                 sc = new Scanner(System.in);
             }
 
@@ -46,7 +69,7 @@ public class Task {
                 string = string.trim();
 
                 if ("quit".equals(string)) {
-                    System.out.println("Выход из приложения");
+                    writeResult("Выход из приложения");
                     break;
                 }
 
@@ -55,9 +78,9 @@ public class Task {
 
                 if (commands.containsKey(cmdName)) {
                     Command x = commands.get(cmdName);
-                    System.out.println("Выполняется команда: " + string);
+                    writeResult("Выполняется команда: " + string);
                     x.execute(command);
-                } else System.out.println("Неизвестная команда: " + cmdName);
+                } else writeResult("Неизвестная команда: " + cmdName);
             }
 
         } catch (Throwable t) {

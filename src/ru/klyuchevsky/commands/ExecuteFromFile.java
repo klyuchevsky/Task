@@ -13,8 +13,8 @@ public class ExecuteFromFile implements Command {
         if (command.length >= 1) {
             path = command[1];
         } else {
-            System.out.println("Не указан путь к файлу");
-            System.out.println("Команда не будет выполнена");
+            Task.writeResult("Не указан путь к файлу");
+            Task.writeResult("Команда не будет выполнена");
             return;
         }
 
@@ -30,9 +30,9 @@ public class ExecuteFromFile implements Command {
 
                 if (Task.getCommands().containsKey(cmdName)) {
                     Command x = (Command) Task.getCommands().get(cmdName);
-                    System.out.println("Выполняется команда: " + string);
+                    Task.writeResult("Выполняется команда: " + string);
                     x.execute(commandF);
-                } else System.out.println("Неизвестная команда: " + cmdName);
+                } else Task.writeResult("Неизвестная команда: " + cmdName);
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,6 +1,7 @@
 package ru.klyuchevsky.commands;
 
 import ru.klyuchevsky.Command;
+import ru.klyuchevsky.Task;
 
 public class Add implements Command {
     public void execute(String[] command) {
@@ -9,9 +10,9 @@ public class Add implements Command {
             try {
                 result = result + Double.parseDouble(command[i]);
             } catch (NumberFormatException e) {
-                System.out.println("Неверный параметр: " + command[i]);
+                Task.writeResult("Неверный параметр: " + command[i]);
             }
         }
-        System.out.println(result);
+        Task.writeResult(result.toString());
     }
 }

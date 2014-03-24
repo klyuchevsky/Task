@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" name="Default" comment="">
+    <list default="true" id="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" name="Default" comment="add project">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Task.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395676895691" ignored="false" />
-    <file path="/Command.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395673359359" ignored="false" />
-    <file path="/Add.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395678097829" ignored="false" />
-    <file path="/Multiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395676026771" ignored="false" />
-    <file path="/AddWithMultiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395680624375" ignored="false" />
-    <file path="/ReadFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395676069697" ignored="false" />
-    <file path="/ExecuteFromFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395676111451" ignored="false" />
-    <file path="/Dummy.txt" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395681077315" ignored="false" />
+    <file path="/Task.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690092575" ignored="false" />
+    <file path="/Command.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395682297214" ignored="false" />
+    <file path="/Add.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689740420" ignored="false" />
+    <file path="/Multiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689821341" ignored="false" />
+    <file path="/AddWithMultiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689900205" ignored="false" />
+    <file path="/ReadFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395682560011" ignored="false" />
+    <file path="/ExecuteFromFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690030113" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690495559" ignored="false" />
+    <file path="/fragment.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395686740848" ignored="false" />
+    <file path="/a.dummy" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690039107" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +82,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Task.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.21909425">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +96,7 @@
       <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="2" column="25" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,8 +105,10 @@
       <file leaf-file-name="Add.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="148" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="15" column="8" selection-start="489" selection-end="505" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,16 +116,7 @@
       <file leaf-file-name="Multiply.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddWithMultiply.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="38" selection-start="922" selection-end="922" vertical-scroll-proportion="1.0408163">
+            <state line="15" column="42" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +127,21 @@
       <file leaf-file-name="ReadFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="16" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddWithMultiply.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="32" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +149,10 @@
       <file leaf-file-name="ExecuteFromFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="19" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,12 +183,12 @@
         <option value="$PROJECT_DIR$/src/Task.java" />
         <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/readFile.java" />
         <option value="$PROJECT_DIR$/src/ru/klyuchevsky/Command.java" />
-        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" />
         <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java" />
         <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" />
+        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java" />
+        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" />
+        <option value="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" />
       </list>
     </option>
   </component>
@@ -271,27 +289,32 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLessons" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Task">
     <configuration default="false" name="Task" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.klyuchevsky.Task" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:/1.txt C:/2.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -444,21 +467,30 @@
       <created>1395681081172</created>
       <updated>1395681081172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add project">
+      <created>1395681245625</created>
+      <updated>1395681245625</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add project">
+      <created>1395683980619</created>
+      <updated>1395683980619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -468,7 +500,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -542,7 +573,9 @@
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="63" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,14 +589,18 @@
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,28 +616,18 @@
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,35 +640,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+        <state line="2" column="25" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="148" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="15" column="8" selection-start="489" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="15" column="42" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="38" selection-start="922" selection-end="922" vertical-scroll-proportion="1.0408163">
+        <state line="24" column="32" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.21909425">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -705,7 +756,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,6 +1,7 @@
 package ru.klyuchevsky.commands;
 
 import ru.klyuchevsky.Command;
+import ru.klyuchevsky.Task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ public class AddWithMultiply implements Command {
         Double result;
 
         if (command.length < 4) {
-            System.out.println("Недостаточно параметров для выполнения команды");
+            Task.writeResult("Недостаточно параметров для выполнения команды");
             return;
         }
 
@@ -20,14 +21,14 @@ public class AddWithMultiply implements Command {
             try {
                 a = Double.parseDouble(command[i]);
             } catch (NumberFormatException e) {
-                System.out.println("Неверный параметр: " + command[i]);
-                System.out.println("Команда не будет выполнена");
+                Task.writeResult("Неверный параметр: " + command[i]);
+                Task.writeResult("Команда не будет выполнена");
                 return;
             }
             pars.add(a);
         }
 
         result = (pars.get(0) + pars.get(1)) * pars.get(2);
-        System.out.println(result);
+        Task.writeResult(result.toString());
     }
 }

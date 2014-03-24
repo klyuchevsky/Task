@@ -1,6 +1,7 @@
 package ru.klyuchevsky.commands;
 
 import ru.klyuchevsky.Command;
+import ru.klyuchevsky.Task;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,8 +13,8 @@ public class ReadFile implements Command {
         if (command.length >= 1) {
             path = command[1];
         } else {
-            System.out.println("Не указан путь к файлу");
-            System.out.println("Команда не будет выполнена");
+            Task.writeResult("Не указан путь к файлу");
+            Task.writeResult("Команда не будет выполнена");
             return;
         }
 
@@ -21,7 +22,7 @@ public class ReadFile implements Command {
             BufferedReader in = new BufferedReader(new FileReader(path));
             String str;
             while ((str = in.readLine()) != null) {
-                System.out.println(str);
+                Task.writeResult(str);
             }
         } catch (IOException e) {
             e.printStackTrace();
