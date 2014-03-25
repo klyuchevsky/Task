@@ -11,9 +11,9 @@ import java.util.Scanner;
 
 public class Task {
     private static Map<String, Command> commands = new HashMap<>(); // Hashmap to store commands
-    private static Boolean isOnline = false;
-    private static File inFile;
-    private static File outFile;
+    private static Boolean isOnline = false; // program mode
+    private static File inFile; // input file
+    private static File outFile; // output file
 
     public static Map getCommands() {
         return commands;
@@ -38,18 +38,18 @@ public class Task {
     public static void main(String[] args) {
         String string; // String to store current command
         Scanner sc;
-
-        commands.put("add", new Add());
-        commands.put("multiply", new Multiply());
-        commands.put("addWithMultiply", new AddWithMultiply());
-        commands.put("readFile", new ReadFile());
-        commands.put("executeFromFile", new ExecuteFromFile());
-
         try {
+
+            commands.put("add", new Add());
+            commands.put("multiply", new Multiply());
+            commands.put("addWithMultiply", new AddWithMultiply());
+            commands.put("readFile", new ReadFile());
+            commands.put("executeFromFile", new ExecuteFromFile());
+
             if (args.length >= 2) {
-                inFile = new File(args[0]); // input file
+                inFile = new File(args[0]);
                 sc = new Scanner(inFile);
-                outFile = new File(args[1]); // output file
+                outFile = new File(args[1]);
                 isOnline = true;
                 System.out.println("Запуск в фоновом режиме");
             } else {

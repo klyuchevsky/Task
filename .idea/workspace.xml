@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" name="Default" comment="add project">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/AddWithMultiply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ExecuteFromFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/Multiply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/commands/ReadFile.java" />
+    <list default="true" id="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" afterPath="$PROJECT_DIR$/src/ru/klyuchevsky/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Task.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690092575" ignored="false" />
+    <file path="/Task.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395715552027" ignored="false" />
     <file path="/Command.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395682297214" ignored="false" />
     <file path="/Add.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689740420" ignored="false" />
     <file path="/Multiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689821341" ignored="false" />
     <file path="/AddWithMultiply.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395689900205" ignored="false" />
     <file path="/ReadFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395682560011" ignored="false" />
     <file path="/ExecuteFromFile.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690030113" ignored="false" />
-    <file path="/Dummy.txt" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690495559" ignored="false" />
-    <file path="/fragment.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395686740848" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690519593" ignored="false" />
+    <file path="/fragment.java" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690587513" ignored="false" />
     <file path="/a.dummy" changelist="7e0a4f9c-be74-4098-a0dd-504cdbaa7a42" time="1395690039107" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +80,7 @@
       <file leaf-file-name="Task.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.21909425">
+            <state line="83" column="39" selection-start="2762" selection-end="2762" vertical-scroll-proportion="0.77922076">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -311,7 +306,7 @@
     <configuration default="false" name="Task" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.klyuchevsky.Task" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="C:/1.txt C:/2.txt" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -475,12 +470,16 @@
       <created>1395683980619</created>
       <updated>1395683980619</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add project">
+      <created>1395690523860</created>
+      <updated>1395690523860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,7 +496,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -692,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/klyuchevsky/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="0.21909425">
+        <state line="83" column="39" selection-start="2762" selection-end="2762" vertical-scroll-proportion="0.77922076">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
